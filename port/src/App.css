@@ -1,0 +1,20 @@
+.nav {
+    text-align: center;
+    position: sticky;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+   
+}
+.App-header{
+    background-color: #feca1d;
+    padding: 20px;
+}
+footer {
+  
+    height: 100%;
+    width: 100%;
+}
