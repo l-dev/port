@@ -19,6 +19,7 @@ class Work extends Component {
           />
           <br />
           <br />
+          <br />
           <img
             className="project"
             src="https://user-images.githubusercontent.com/54283215/69175389-87649e80-0ab8-11ea-8775-8282e9f66047.png"
