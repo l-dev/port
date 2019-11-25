@@ -1,20 +1,28 @@
 .nav {
-    text-align: center;
-    position: sticky;
+  text-align: center;
+  position: sticky;
+  
+}
+nav {
+    border-bottom:rgba(242, 112, 65, 0.564) solid 5px;
+}
+.nav a {
+  text-decoration: none;
+  color:#F27141;;
+  padding: 30px;
+  letter-spacing: 10px;
+}
+.nav a:hover {
+    color: #84BFAE;
+}
+.App-header {
+  padding: 20px;
 }
 
-.nav a {
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-   
-}
-.App-header{
-    background-color: #feca1d;
-    padding: 20px;
-}
+
 footer {
-  
-    height: 100%;
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
 }

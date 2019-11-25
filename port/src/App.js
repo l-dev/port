@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav className="nav">
-          <a href="/">Home</a>
-          <a href="/home">About</a>
-          <a href="/work">Projects &rarr;</a>
+          <a href="/">HOME</a>
+          <a href="/home">ABOUT</a>
+          <a href="/work">PROJECTS &rarr;</a>
         </nav>
       </header>
       
