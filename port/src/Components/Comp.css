@@ -4,7 +4,7 @@ body {
 }
 footer {
 text-align: center;
-font-size: 20px;
+font-size: 30px;
 border-top: 5px  #F27141 solid;
 }
 
@@ -130,6 +130,7 @@ a :hover {
   color: #84BFAE;
   -webkit-animation: bounce-in-top 2.1s both;
   animation: bounce-in-top 2.1s both;
+  letter-spacing: 10px;
 }
 @keyframes bounce-in-top {
   0% {
@@ -199,6 +200,7 @@ a :hover {
   padding-left: 200px;
   font-size: 100px;
   color: #F29727;
+  letter-spacing: 10px;
 }
 
 .welcome2:after {
@@ -215,6 +217,8 @@ a :hover {
     padding-left: 200px;
     font-size: 100px;
     color: #F2B4AE;
+    letter-spacing: 10px;
+    
   }
   
   .welcome3:after {
@@ -227,8 +231,9 @@ a :hover {
 .links {
     text-decoration: none;
     color:  rgba(242, 112, 65, 0.392);
-    padding: 25px;
+    padding: 40px;
     animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    
 }
 .links:hover {
     color: #F27141;
