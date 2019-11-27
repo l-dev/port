@@ -7,6 +7,11 @@ text-align: center;
 font-size: 30px;
 border-top: 5px  #F27141 solid;
 }
+@media screen and (max-width: 800px) {
+    footer{
+     font-size: 15px;
+   }
+}
 
 /* Home CSS */
 .home {
@@ -43,6 +48,19 @@ border-top: 5px  #F27141 solid;
     letter-spacing: 7px;
     animation: wobble 4s both;
 }
+@media screen and (max-width: 800px) {
+     .pic, .profile, .home{
+      width: 80%;
+    }
+    .hello, .intro {
+        font-size: 15px;
+        top: 10px;
+        justify-content: center;
+        width: 100%;
+        padding: 0px;
+      
+    }
+  }
 @keyframes wobble {
   0%,
   100% {
@@ -99,6 +117,7 @@ a :hover {
   padding-top: 20px;
   text-align: center;
 }
+
 @keyframes shadow-drop-center {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
@@ -237,4 +256,22 @@ a :hover {
 }
 .links:hover {
     color: #F27141;
+}
+@media screen and (max-width: 800px) {
+    .welcome{
+     font-size: 40px;
+     padding: 20px;
+     padding-top: 25px;
+     
+   }
+   .welcome2{
+    font-size: 40px;
+    padding: 15px;
+    padding-top: 45px;
+  }
+  .welcome3{
+    font-size: 40px;
+    padding: 15px;
+    padding-top: 25px;
+  }
 }
