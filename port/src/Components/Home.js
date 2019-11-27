@@ -13,7 +13,7 @@ class Home extends Component {
           <h1 className="intro">
           <h1 className="intro hello"> Hello, there!</h1>
             My name is Lauren Robinson. I am a coffee connoisseur, an entry level sommellier, and a meticulously passionate software
-            engineer located in beautiful Boston, Massachusettes. When I am not dedicating my energy to coding or drinking copious amounts of coffee I enjoy running, playing mario kart, and networking with other software engineers! I would love to get to know you better. Click one of the links below or contact me at
+            engineer located in beautiful Boston, Massachusetts. When I am not dedicating my energy to coding or drinking copious amounts of coffee I enjoy running, playing mario kart, and networking with other software engineers! I would love to get to know you better. Click one of the links below or contact me at
             laurenhaleyrobinson@gmail.com.
           </h1>
  
