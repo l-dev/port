@@ -15,7 +15,7 @@ function App() {
           <a href={process.env.PUBLIC_URL + "/work"}>PROJECTS &rarr;</a>
         </nav>
       </header>
-      <HashRouter>
+      
         <Switch>
           <Route
             exact
@@ -29,7 +29,7 @@ function App() {
             component={Work}
           />
         </Switch>
-      </HashRouter>
+ 
     </div>
   );
 }
